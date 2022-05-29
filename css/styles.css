@@ -9,7 +9,7 @@
     color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 .container-fluidmod{
     margin: 0px 40px;
@@ -55,6 +55,7 @@
 }
 
 /*  AREA DE TESTIMONIOS */
+
 .testimonios{
     background-color: #49408e !important;
 }
@@ -114,13 +115,12 @@ footer i:hover{
     background-size: cover;
     background-attachment: fixed;
 }
-.banner-text2{
-    transform: translateY(20%);
-}
+
 
 
 
 /* PÁGINA DE REGISTRO */
+
 .registro{
     height: auto;
     background-image: url(../assets/img/cam2.jpg) !important;
