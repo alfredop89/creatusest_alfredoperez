@@ -102,8 +102,20 @@ footer i:hover{
 
 /* PAGINA DE GALERÍA */
 
+.galeria{
+    height: auto;
+}
+
 .galeria-banner{
-    height: 600px;
+    height: 100vh;
+    background-image: url(../assets/img/cam1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-text2{
+    transform: translateY(20%);
 }
 
 
@@ -119,8 +131,4 @@ footer i:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-.logo-reg{
-    height: 120px;
-    width: 400px;
 }
