@@ -105,3 +105,22 @@ footer i:hover{
 .galeria-banner{
     height: 600px;
 }
+
+
+
+
+
+
+/* PÁGINA DE REGISTRO */
+.registro{
+    height: auto;
+    background-image: url(../assets/img/cam2.jpg) !important;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo-reg{
+    height: 120px;
+    width: 400px;
+}
