@@ -1,0 +1,90 @@
+
+/* AREA DEL HEADER */
+
+.logo{
+    height: 70px;
+}
+.navbarmod{
+    border-bottom: 5px solid #49408e;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.container-fluidmod{
+    margin: 0px 40px;
+    justify-content: space-between;
+}
+
+/* AREA DEL BANNER */
+
+.main-banner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    background-image: url(../assets/img/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-text{
+    color: white;
+}
+.banner-text p{
+    text-align: justify;
+    margin-bottom: 80px;
+}
+.banner-text h1{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px){
+    .main-banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner-text{
+        text-align: center;
+    }
+}
+
+/*  AREA DE TESTIMONIOS */
+.testimonios{
+    background-color: #49408e !important;
+}
+
+/*  BLOQUE DOS */
+
+@media screen and (max-width: 768px){
+    .blog{
+       display: none; 
+    }
+}
+
+/* CONTACTO */
+
+.contacto{
+    background-image: url(../assets/img/main-banner.jpg) !important;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 5px solid #F46036
+}
+footer i:hover{
+    color: #49408e;
+    cursor: pointer;
+}
+.btn{
+    background-color: #49408e !important;
+    width: auto;
+}
