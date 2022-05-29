@@ -88,3 +88,14 @@ footer i:hover{
     background-color: #49408e !important;
     width: auto;
 }
+
+/* PÁGINA DEL FAQ */
+
+.faq{
+    height: 100vh;
+    background-image: url(../assets/img/main-banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
