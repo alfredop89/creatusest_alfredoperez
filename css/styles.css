@@ -99,3 +99,9 @@ footer i:hover{
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* PAGINA DE GALERÍA */
+
+.galeria-banner{
+    height: 600px;
+}
