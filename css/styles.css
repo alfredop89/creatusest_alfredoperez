@@ -137,8 +137,13 @@ footer i:hover{
     background-attachment: fixed;
 }
 @media screen and (max-width: 568px){
+    .galeria{
+        display: none !important;
+    }
     .galeria2{
         padding: 0 !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
         width: 100%;
         margin: 0 auto;
     }
