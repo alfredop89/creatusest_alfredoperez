@@ -85,7 +85,7 @@
     background-position: bottom;
     background-attachment: fixed;
 }
-@media screen and (max-width: 568px;){
+@media screen and (max-width: 576px;){
     .registro{
         padding: 0% !important;
     }
@@ -148,7 +148,7 @@ footer i:hover{
     background-size: cover;
     background-attachment: fixed;
 }
-@media screen and (max-width: 568px){
+@media screen and (max-width: 576px){
     .galeria{
         display: none !important;
     }

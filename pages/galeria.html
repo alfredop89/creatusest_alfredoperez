@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
@@ -40,7 +41,7 @@
         <div class="row container-fluid text-center justify-content-center align-items-center galeria-banner p-3">
           <div class="banner-text2 text-light col-xxl-5 col-xl-5 p-3">
               <span>ÚNETE A LA EXPERIENCIA</span>
-              <h1 class="display-4 fw-bold lh-1 mb-4">Arte y expresión, visualiza e inspírate con nosotros</h1>
+              <h1 class="display-4 fw-bold lh-1 mb-4" data-aos="flip-left">Arte y expresión, visualiza e inspírate con nosotros</h1>
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dicta possimus atque in architecto, qui perferendis excepturi voluptatem quam cumque assumenda! Cum, neque. Numquam, deserunt expedita eaque placeat vitae quibusdam.</p>
               <a class="btn bg-primary text-light" href="./registro.html">COMIENZA YA</a>
           </div>
@@ -155,16 +156,16 @@
 
       <div class="galeria2 row px-0 bg-danger">
         <div class="galeria2 bg-dark text-center py-5 m-0">
-          <img class="p-1 img-fluid" src="../assets/img/port1.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port2.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port3.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port4.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port5.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port6.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port7.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port8.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port9.jpg" alt="">
-          <img class="p-1 img-fluid" src="../assets/img/port10.jpg" alt="">
+          <img class="p-1 img-fluid" src="../assets/img/port1.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port2.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port3.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port4.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port5.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port6.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port7.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port8.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port9.jpg" alt="" data-aos="fade-up">
+          <img class="p-1 img-fluid" src="../assets/img/port10.jpg" alt="" data-aos="fade-up">
         </div>
       </div>
 
@@ -180,7 +181,7 @@
           </div>   
         </div>
         <div class="row mx-auto col-xl-8 col-md-10 justify-content-center">
-          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12">
+          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12" data-aos="flip-right">
             <div class="card text-center mb-4">
               <div class="card-header bg-dark text-light">
                 Básico
@@ -197,7 +198,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12">
+          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12" data-aos="flip-right">
             <div class="card text-center mb-4">
               <div class="card-header bg-dark text-light">
                 Gold
@@ -214,7 +215,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12">
+          <div class="col col-xxl-4 col-xl-4 col-lg-6 col-md-8 col-sm-12" data-aos="flip-right">
             <div class="card text-center mb-4">
               <div class="card-header bg-dark text-light">
                 Premium
@@ -315,5 +316,9 @@
       <!-- SCRIPTS -->
       <script src="https://kit.fontawesome.com/4c1a11ecc8.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
