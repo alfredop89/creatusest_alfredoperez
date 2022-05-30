@@ -2,7 +2,7 @@
 /* AREA DEL HEADER */
 
 .logo{
-    height: 60px;
+    height: 50px;
 }
 .navbarmod{
     border-bottom: 5px solid #49408e;
@@ -109,9 +109,10 @@ footer i:hover{
 @media screen and (max-width: 768px){
     .faq{
         height: auto;
+        width: auto;
     }
     .faq h1{
-        margin-top: 80px !important;
+        margin-top: 120px !important;
         font-size: 22px !important;
     }
 }
