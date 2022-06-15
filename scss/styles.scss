@@ -2,6 +2,7 @@
 @import"./complements/header";
 @import"./complements/banners";
 @import"./complements/footer";
+@import"./complements/mixin";
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -15,6 +16,9 @@ body{
 }
 .testimonios{
     background-color: $cl-secundario !important;
+    .img-bloque{
+        height: 350px;
+    }
 }
 .bloqueuno{
     background-color: #645e9d;
@@ -25,5 +29,9 @@ body{
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
-
+}
+@media screen and (max-width: 576px){
+    .galeria{
+        display: none;
+    }
 }

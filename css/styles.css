@@ -1,8 +1,8 @@
 .navbarmod {
-  width: 100%;
+  width: 100% !important;
   position: fixed;
   z-index: 5;
-  background-color: #251a42 !important; }
+  background-color: #21183a !important; }
   .navbarmod .logo {
     height: 70px; }
   @media screen and (max-width: 380px) {
@@ -10,8 +10,27 @@
       height: 60px; } }
 
 .main-banner {
-  height: 100vh;
   background-image: url(../../assets/img/main-banner.png);
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.main-banner2 {
+  height: 100vh;
+  width: auto;
+  background-image: url(../../assets/img/cam1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.banner-acerca {
+  height: 100vh;
+  width: auto;
+  background-image: url(../../assets/img/banner1-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -24,14 +43,16 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .btn-primary {
-  background-color: #251a42 !important;
+  background-color: #21183a !important;
   border: none; }
 
 .card-enc {
-  background-color: #251a42 !important; }
+  background-color: #21183a !important; }
 
 .testimonios {
   background-color: #a73734 !important; }
+  .testimonios .img-bloque {
+    height: 350px; }
 
 .bloqueuno {
   background-color: #645e9d; }
@@ -42,5 +63,9 @@ body {
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover; }
+
+@media screen and (max-width: 576px) {
+  .galeria {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,25 @@
 .main-banner{
-    height: 100vh;
     background-image: url(../../assets/img/main-banner.png);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-banner2{
+    height: 100vh;
+    width: auto;
+    background-image: url(../../assets/img/cam1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-acerca{
+    height: 100vh;
+    width: auto;
+    background-image: url(../../assets/img/banner1-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
