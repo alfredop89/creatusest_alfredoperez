@@ -1,3 +1,9 @@
 footer{
     background-color: $cl-quinto;
+    i{
+        cursor: pointer;
+        &:hover{
+            color: $cl-primario;
+        }
+    }
 }

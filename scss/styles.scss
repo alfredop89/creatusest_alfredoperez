@@ -1,8 +1,9 @@
 @import"./base/variables";
+@import"./complements/mixin";
 @import"./complements/header";
 @import"./complements/banners";
 @import"./complements/footer";
-@import"./complements/mixin";
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -17,7 +18,7 @@ body{
 .testimonios{
     background-color: $cl-secundario !important;
     .img-bloque{
-        height: 350px;
+        height: 250px;
     }
 }
 .bloqueuno{
@@ -25,12 +26,10 @@ body{
 }
 .contacto{
     background-image: url(../../assets/img/main-banner.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-    background-size: cover;
+    @include banners-bg;
+    height: auto;
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 1024px){
     .galeria{
         display: none;
     }

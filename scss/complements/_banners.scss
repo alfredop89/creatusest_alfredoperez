@@ -1,27 +1,16 @@
 .main-banner{
     background-image: url(../../assets/img/main-banner.png);
-    height: 100vh;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    @include banners-bg;
 }
 .main-banner2{
-    height: 100vh;
-    width: auto;
     background-image: url(../../assets/img/cam1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    @include banners-bg;
 }
 .banner-acerca{
-    height: 100vh;
-    width: auto;
     background-image: url(../../assets/img/banner1-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    @include banners-bg;
+}
+.main-banner3{
+    @include banners-bg;
+    background-image: url(../../assets/img/cam2.jpg);
 }

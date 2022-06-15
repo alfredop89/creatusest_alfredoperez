@@ -19,25 +19,38 @@
   background-size: cover; }
 
 .main-banner2 {
+  background-image: url(../../assets/img/cam1.png);
   height: 100vh;
   width: auto;
-  background-image: url(../../assets/img/cam1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover; }
 
 .banner-acerca {
+  background-image: url(../../assets/img/banner1-2.png);
   height: 100vh;
   width: auto;
-  background-image: url(../../assets/img/banner1-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover; }
 
+.main-banner3 {
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../../assets/img/cam2.jpg); }
+
 footer {
   background-color: #efefef; }
+  footer i {
+    cursor: pointer; }
+    footer i:hover {
+      color: #21183a; }
 
 body {
   font-family: 'Roboto', sans-serif; }
@@ -52,19 +65,22 @@ body {
 .testimonios {
   background-color: #a73734 !important; }
   .testimonios .img-bloque {
-    height: 350px; }
+    height: 250px; }
 
 .bloqueuno {
   background-color: #645e9d; }
 
 .contacto {
   background-image: url(../../assets/img/main-banner.png);
+  height: 100vh;
+  width: auto;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  height: auto; }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
   .galeria {
     display: none; } }
 
