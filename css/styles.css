@@ -45,6 +45,15 @@
   background-size: cover;
   background-image: url(../../assets/img/cam2.jpg); }
 
+.banner-faq {
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../../assets/img/main-banner2.png); }
+
 footer {
   background-color: #efefef; }
   footer i {

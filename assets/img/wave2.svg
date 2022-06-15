@@ -4,7 +4,7 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="wave2.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,12 +21,12 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="0.23055556"
-     inkscape:cx="45.542168"
+     inkscape:cx="47.710842"
      inkscape:cy="-236.38554"
      inkscape:window-width="1453"
      inkscape:window-height="1013"
      inkscape:window-x="71"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4" />
   <path
@@ -34,5 +34,5 @@
      fill-opacity="1"
      d="M0,64L60,58.7C120,53,240,43,360,58.7C480,75,600,117,720,160C840,203,960,245,1080,256C1200,267,1320,245,1380,234.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
      id="path2"
-     style="fill:#dd3f4f;fill-opacity:1" />
+     style="fill:#ffffff;fill-opacity:1" />
 </svg>
