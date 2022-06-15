@@ -1,0 +1,15 @@
+.navbarmod{
+    
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: $cl-primario !important;
+    .logo{
+        height: 75px;
+        @media screen and (max-width: 380px){
+            .logo{
+                height: 65px;
+            }
+        }
+    }
+}
