@@ -2,7 +2,8 @@
   width: 100% !important;
   position: fixed;
   z-index: 5;
-  background-color: #21183a !important; }
+  background-color: #21183a !important;
+  border-bottom: 5px solid white; }
   .navbarmod .logo {
     height: 70px; }
   @media screen and (max-width: 380px) {
