@@ -1,7 +1,29 @@
 @import"./base/variables";
 @import"./complements/header";
 @import"./complements/banners";
+@import"./complements/footer";
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+    background-color: $cl-primario !important;
+    border: none;
+}
+.card-enc{
+    background-color: $cl-primario !important;
+}
+.testimonios{
+    background-color: $cl-secundario !important;
+}
+.bloqueuno{
+    background-color: #645e9d;
+}
+.contacto{
+    background-image: url(../../assets/img/main-banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+
 }

@@ -2,12 +2,12 @@
   width: 100%;
   position: fixed;
   z-index: 5;
-  background-color: #3b2969 !important; }
+  background-color: #251a42 !important; }
   .navbarmod .logo {
-    height: 75px; }
-    @media screen and (max-width: 380px) {
-      .navbarmod .logo .logo {
-        height: 65px; } }
+    height: 70px; }
+  @media screen and (max-width: 380px) {
+    .navbarmod .logo {
+      height: 60px; } }
 
 .main-banner {
   height: 100vh;
@@ -17,7 +17,30 @@
   background-attachment: fixed;
   background-size: cover; }
 
+footer {
+  background-color: #efefef; }
+
 body {
   font-family: 'Roboto', sans-serif; }
+
+.btn-primary {
+  background-color: #251a42 !important;
+  border: none; }
+
+.card-enc {
+  background-color: #251a42 !important; }
+
+.testimonios {
+  background-color: #a73734 !important; }
+
+.bloqueuno {
+  background-color: #645e9d; }
+
+.contacto {
+  background-image: url(../../assets/img/main-banner.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
