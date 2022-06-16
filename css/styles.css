@@ -71,7 +71,7 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .btn-primary {
-  background-color: #21183a;
+  background-color: #21183a !important;
   padding: 10px;
   border: none; }
 

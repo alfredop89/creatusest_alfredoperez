@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .btn-primary{
-    background-color: map-get($botones, bg-color);
+    background-color: map-get($botones, bg-color) !important;
     padding: map-get($botones, padding );
     border: map-get($botones, border );
 }
