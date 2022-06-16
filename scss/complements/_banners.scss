@@ -1,21 +1,21 @@
 .main-banner{
-    background-image: url(../../assets/img/main-banner.png);
+    background-image: url(../assets/img/main-banner.png);
     @include banners-bg;
 }
 .main-banner2{
-    background-image: url(../../assets/img/cam1.png);
+    background-image: url(../assets/img/cam1.png);
     @include banners-bg;
 }
 .banner-acerca{
-    background-image: url(../../assets/img/banner1-2.png);
+    background-image: url(../assets/img/banner1-2.png);
     @include banners-bg;
 }
 .main-banner3{
     @include banners-bg;
-    background-image: url(../../assets/img/cam2.jpg);
+    background-image: url(../assets/img/cam2.jpg);
     width: auto;
 }
 .banner-faq{
     @include banners-bg;
-    background-image: url(../../assets/img/main-banner2.png);
+    background-image: url(../assets/img/main-banner2.png);
 }

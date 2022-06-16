@@ -15,7 +15,7 @@
       height: 60px; } }
 
 .main-banner {
-  background-image: url(../../assets/img/main-banner.png);
+  background-image: url(../assets/img/main-banner.png);
   height: 100vh;
   width: auto;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   background-size: cover; }
 
 .main-banner2 {
-  background-image: url(../../assets/img/cam1.png);
+  background-image: url(../assets/img/cam1.png);
   height: 100vh;
   width: auto;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
   background-size: cover; }
 
 .banner-acerca {
-  background-image: url(../../assets/img/banner1-2.png);
+  background-image: url(../assets/img/banner1-2.png);
   height: 100vh;
   width: auto;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(../../assets/img/cam2.jpg);
+  background-image: url(../assets/img/cam2.jpg);
   width: auto; }
 
 .banner-faq {
@@ -58,7 +58,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(../../assets/img/main-banner2.png); }
+  background-image: url(../assets/img/main-banner2.png); }
 
 footer {
   background-color: #efefef; }
