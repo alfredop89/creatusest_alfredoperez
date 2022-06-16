@@ -72,7 +72,8 @@ body {
 
 .btn-primary {
   background-color: #21183a;
-  padding: 15px; }
+  padding: 10px;
+  border: none; }
 
 .card-enc {
   background-color: #21183a !important; }
