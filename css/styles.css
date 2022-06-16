@@ -1,3 +1,7 @@
+.testimonios .img-bloque {
+  height: 250px;
+  border: 6px solid white; }
+
 .navbarmod {
   width: 100% !important;
   position: fixed;
@@ -44,7 +48,8 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(../../assets/img/cam2.jpg); }
+  background-image: url(../../assets/img/cam2.jpg);
+  width: auto; }
 
 .banner-faq {
   height: 100vh;
@@ -66,16 +71,14 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .btn-primary {
-  background-color: #21183a !important;
-  border: none; }
+  background-color: #21183a;
+  padding: 15px; }
 
 .card-enc {
   background-color: #21183a !important; }
 
 .testimonios {
   background-color: #a73734 !important; }
-  .testimonios .img-bloque {
-    height: 250px; }
 
 .bloqueuno {
   background-color: #645e9d; }
